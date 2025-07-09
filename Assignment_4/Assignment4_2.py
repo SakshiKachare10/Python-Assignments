@@ -1,0 +1,7 @@
+Multi = lambda A,B: (A* B)
+print("Enter 1st number is :")
+no1 = int(input())
+print("Enter 2nd number is:")
+no2 = int(input())
+ret = Multi(no1,no2)
+print("Result is:",ret)

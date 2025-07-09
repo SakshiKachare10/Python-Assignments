@@ -1,0 +1,5 @@
+Power = lambda no: (no ** 2)
+print("Enter number is :")
+no = int(input())
+ret = Power(no)
+print("Result is:",ret)

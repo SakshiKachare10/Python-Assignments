@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score , confusion_matrix , f1_score , preci
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def DiabetesLogistic(datasetpath):
+def DiabetesDecisionTree(datasetpath):
 
     df = pd.read_csv(datasetpath)
 
@@ -58,7 +58,7 @@ def DiabetesLogistic(datasetpath):
     
 def main():
 
-    DiabetesLogistic("diabetes.csv")
+    DiabetesDecisionTree("diabetes.csv")
 
 
 if __name__ == "__main__":
